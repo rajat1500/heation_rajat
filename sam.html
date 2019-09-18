@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>transparent navigation bar</title>
+   <style>
+       body{
+           background-color: bisque;
+           margin: 0;
+       }
+       .menu{
+           width: 100%;
+           background: #142b47;
+           overflow: auto;
+           
+       }
+       .menu ul{
+           margin: 50px 0 0 200px;
+           padding: 10px;
+           list-style: none;
+           line-height: 60px;
+           
+       }
+       .menu li{
+           float: left;
+       }
+       .menu ul li a{
+           background: #142b47;
+           text-decoration: none;
+           width: 100px;
+           display: block;
+           text-align: center;
+           color: #f2f2f2;
+           font-size: 10px;
+           font-family: sans-serif;
+           letter-spacing: 0.5px;
+       }
+       .menu li a:hover{
+           color: #fff;
+           opacity: 0.5;
+           font-size: 19px;
+           
+       }
+       .search-form{
+           margin:0px 0px 0px 0px;
+            position: relative;
+           bottom: 50px;
+           float:center;
+           
+       }
+       input[type=text]{
+           padding: 7px;
+           border: none;
+           font-size: 10px;
+           font-family: sans-serif;
+       }
+       button{
+           float: center;
+           background: orange;
+           color: white;
+           border-radius: 0 0px 0px 0; 
+           cursor: pointer;
+           position: relative;
+           padding: 7px;
+           font-family: sans-serif;
+           border: none;
+           font-size: 10px;
+       }
+       .logo img{
+           position: absolute;
+           margin-top: 0px;
+           margin-left: 0px;
+       }
+       .container{
+           max-width: 1200px;
+           margin: auto;
+           background:bisque;
+           overflow: auto;
+           
+       }
+       .gallery{
+           margin: 5px;
+           border:1px solid bisque;
+           float: left;
+           width: 500px;
+           
+               
+       }
+       .gallery img{
+           width: 100%;
+           height: auto;
+           
+           
+       }
+       .desc{
+           padding: 15px;
+           text-align: center;
+       }
+       .menum{
+           width: 100%;
+           background: #142b47;
+           overflow: auto;
+           
+       }
+       .menum ul{
+           margin: 0px 0px 0px 0px;
+           padding: 0px;
+           list-style: none;
+           line-height: 20px;
+       }
+       .menum li{
+           float: right;
+       }
+       .menum ul li a{
+           background: #142b47;
+           text-decoration: none;
+           width: 100px;
+           display: block;
+           text-align: center;
+           color: #f2f2f2;
+           font-size: 10px;
+           font-family: sans-serif;
+           letter-spacing: 0.5px;
+       }
+       .menum li a:hover{
+           color: #fff;
+           opacity: 0.5;
+           font-size: 19px;
+       }
+       .colouryellow{
+           position: relative;
+       }
+       .text-block{
+           position: absolute;
+           bottom: 20px;
+           right: 500px;
+           padding-left: 20px;
+           padding-right: 20px;
+           font-size: 60px;
+           font-family: sans-serif;
+           float: center;
+           
+       }
+       
+       
+    </style>
+</head>
+<body>
+    <div class="logo"><a href="#"><img src="images/amazonlogo.jpg" width="220px" height="140px"/></a>
+    </div>
+    <nav class="menu">
+            <ul>
+                <li><a href="#"><b>Departments</b></a></li>
+                <li><a href="#">Today's deal</a></li>
+                <li><a href="#">Gift Card</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        <form class="search-form">
+            <button>All^</button>
+            <input type="text" placeholder="SEARCH">
+            <button>Search</button>
+            
+        </form>
+        </nav>
+    <nav class="menum">
+            <ul>
+                <li><a href="#">Account and list</a></li>
+                <li><a href="#">Orders</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Sign in</a></li>
+            </ul>
+        </nav>
+    <div class="colouryellow"><a href="#"><img src="images/yellow.jpg" width="1600px" height="300px" /></a>
+           <div class="text-block">
+               <h4>The Sale Is Live</h4>
+               <p><a href="#">flat 50% off!!!!!</a></p>
+        </div> 
+            
+        </div>
+    <div class="container">
+        
+        <div class="gallery"><a href="#"><img src="images/laptop.jpg" width="190px" height="120px"/></a>
+            <div class="desc"><h1><b>Computers</b></h1></div>
+            
+        </div>
+        <div class="gallery"><a href="#"><img src="images/gadget.jpg" width="190px" height="120px"/></a>
+            <div class="desc"><h1><b>Shop by Category</b></h1></div>
+            
+        </div>
+        <div class="gallery"><a href="#"><img src="images/iphone.jpg" width="190px" height="120px"/></a>
+            <div class="desc"><h1><b>Like-new cellphones</b></h1></div>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
